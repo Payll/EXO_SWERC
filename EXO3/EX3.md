@@ -1,4 +1,4 @@
-# EX4, Probabilité pour un joueur
+# EX3, Probabilité pour un joueur
 
 Pendant ce temps, Alice a décidé de se mettre à la chimie. Dans son kit de chimie pour débutants, elle n'a que l'élément 0. Mais Alice voudrait avoir l'élément b!
 Au départ, elle a 1/b chance de trouver c, c se trouvant entre 1 et b. Puis, lorsqu'elle a trouvé un composant x, elle a 1/(b-x) chances de trouver c, c allant de x+1 à b.
