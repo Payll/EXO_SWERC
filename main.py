@@ -12,7 +12,7 @@ def InputGenerator():
 
 
 def OutputGenerator():
-    for i in range(1, 7):
+    for i in range(7):
         exo = "EXO2"
         
         with open(exo + '/Secret_Sample/' + str(i) +".in", 'r') as f:
