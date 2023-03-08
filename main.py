@@ -1,4 +1,5 @@
 import random
+import Exo2
 from math import gcd
 
 def InputGenerator():
@@ -9,15 +10,16 @@ def InputGenerator():
             for j in range(10**5):
                 f.write(str(random.randint(1, 12)) + '\n')
 
-def resoudre(n):
-    return ""
-
 
 def OutputGenerator():
     for i in range(1, 7):
-        with open('IN/EX2/in' + str(i), 'r') as f:
-            with open('OUT/EX2/out' + str(i), 'w') as g:
-                # on lit le fichier d'entrée
-                n = int(f.readline())
-                # on écrit la réponse
-                g.write(str(n) + '\n')
+        exo = "EXO2"
+        
+        with open(exo + '/Secret_Sample/' + str(i) +".in", 'r') as f:
+            with open(exo + '/Secret_Sample/' + str(i)+".ans", 'w') as g:
+                print("je genere fort la ")
+                
+                g.write(Exo2.solve(f.read()))            
+
+if __name__ == "__main__":
+    OutputGenerator()
