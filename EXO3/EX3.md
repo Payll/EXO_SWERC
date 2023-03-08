@@ -1,0 +1,22 @@
+# EX3, Probabilité pour un joueur
+
+Bob, énervé d'avoir une fois de plus perdu, s'exile seul, et décide de jouer à un jeu.
+
+Il dispose d'un circuit de n+1 cases numérotées de 0 à n. Il lance à chaque tour une pièce, et avance de 1 ou 2 cases en fonction du tirage.
+
+Bob aimerait savoir la probabilité pour qu'il arrive à la fin du circuit en c coups.
+
+## Input
+```
+n le nombre de cases
+c le nombre de coups
+```
+## Output
+```
+probabilité que Bob arrive à la fin du circuit en c coups
+```
+# Time limit
+```
+1sec
+```
+
