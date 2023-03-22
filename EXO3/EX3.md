@@ -1,13 +1,19 @@
 # EX3, Probabilité pour un joueur
 
-Pendant ce temps, Alice a décidé de se mettre à la chimie. Dans son kit de chimie pour débutants, elle n'a que l'élément 0. Mais Alice voudrait avoir l'élément b!
-Au départ, elle a 1/b chance de trouver c, c se trouvant entre 1 et b. Puis, lorsqu'elle a trouvé un composant x, elle a 1/(b-x) chances de trouver c, c allant de x+1 à b.
-Alice dispose de n essais, et elle aimerait connaître la probabilité qu'elle trouve l'élément b avant d'arriver à la fin de ses essais.
+Dans un univers parallèle, il existe n éléments chimiques, numérotés de 1 à n.
+L'élément numéro n n'a pas encore été découvert, et sa découverte constituerait un sommet de la recherche et apporterait à son auteur une gloire éternelle et le prix dit "j'ai eu l'exo B".
+Un chercheur solitaire (Alice) tente de découvrir cet élément.
+Actuellement, il dispose d'un échantillon de l'élément 0.
+Chaque année, il effectue indépendamment une expérience de fusion.
+Lors d'une expérience de fusion, si le chercheur dispose actuellement d'un échantillon de l'élément a, il produit un échantillon d'un élément b qui est choisi uniformément au hasard entre a + 1 et n, et il perd l'échantillon de l'élément a.
+Le chercheur recevra le prix "j'ai un exo intermédiaire" s'il parvient à découvrir l'élément k.
+Vous devez calculer la probabilité que le chercheur découvre l'élément k et remporte le prix en x année.
 
 ## Input
 ```
-b l'élément à trouver
-n le nombre d'essais
+n le nombre d'éléments,
+k position initial,
+x le nombre d'année 
 ```
 ## Output
 ```
