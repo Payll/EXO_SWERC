@@ -1,10 +1,9 @@
 import sys
 
-file = open("input").read()
+file = sys.stdin.read()
 lines = file.splitlines()
 
 n = int(lines[0])
-nb = int(lines[1])
 k1 = int(lines[1])
 k2 = int(lines[2])
 x = int(lines[3])
